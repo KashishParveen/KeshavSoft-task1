@@ -1,0 +1,11 @@
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+# Logs and temporary files
+*.log
+*.tmp
+node_modules/
