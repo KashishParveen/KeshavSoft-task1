@@ -3,8 +3,8 @@
 A modern, responsive website showcasing Bootstrap 5 components with interactive features.
 
 ## 🚀 Live Demo
-- **Live Site**: [https://yourusername.github.io/bootstrap-component-showcase](https://yourusername.github.io/bootstrap-component-showcase)
-- **Repository**: [https://github.com/yourusername/bootstrap-component-showcase](https://github.com/yourusername/bootstrap-component-showcase)
+- **Live Site**: [https://keshavsoft-task111.netlify.app/](https://keshavsoft-task111.netlify.app/)
+- **Repository**: [https://github.com/KashishParveen/KeshavSoft-task1](https://github.com/KashishParveen/KeshavSoft-task1)
 
 ## 🛠 Technologies Used
 - HTML5
