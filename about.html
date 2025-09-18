@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - TechFlow</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div id="page-loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <a href="#" class="back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-primary fw-bold fs-3" href="index.html">
+                <i class="bi bi-lightning-charge-fill me-2"></i>TechFlow
+            </a>
+            
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-semibold" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu shadow">
+                            <li><a class="dropdown-item" href="index.html#services"><i class="bi bi-code-slash me-2"></i>Web Development</a></li>
+                            <li><a class="dropdown-item" href="index.html#services"><i class="bi bi-phone me-2"></i>Mobile Apps</a></li>
+                            <li><a class="dropdown-item" href="index.html#services"><i class="bi bi-cloud me-2"></i>Cloud Solutions</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="contact.html"><i class="bi bi-headset me-2"></i>Support</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <i class="bi bi-person me-1"></i>Login
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="bi bi-rocket-takeoff me-1"></i>Get Started
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="about-hero-section min-vh-50 d-flex align-items-center" style="background: var(--gradient-primary); padding-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center text-white">
+                    <h1 class="display-4 fw-bold mb-3" data-aos="fade-up">About TechFlow</h1>
+                    <p class="lead mb-4" data-aos="fade-up" data-aos-delay="100">
+                        We're a team of passionate innovators dedicated to transforming businesses through technology.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="display-5 fw-bold mb-4">Our Story</h2>
+                    <p class="lead text-muted mb-4">
+                        Founded in 2015, TechFlow began with a simple mission: to help businesses leverage technology for growth and innovation.
+                    </p>
+                    <p class="mb-4">
+                        What started as a small team of developers has grown into a full-service technology partner for businesses worldwide. 
+                        We've helped over 250 clients transform their operations, reach new customers, and achieve their business goals.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row gap-3">
+                        <a href="contact.html" class="btn btn-primary btn-lg px-4">
+                            <i class="bi bi-telephone me-2"></i>Contact Us
+                        </a>
+                        <a href="index.html#services" class="btn btn-outline-primary btn-lg px-4">
+                            <i class="bi bi-grid me-2"></i>Our Services
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                            class="img-fluid rounded-4 shadow-lg" alt="TechFlow Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-5 fw-bold mb-3" data-aos="fade-up">Our Values</h2>
+                    <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">
+                        The principles that guide everything we do
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon bg-gradient-primary text-white rounded-circle mb-3 mx-auto">
+                                <i class="bi bi-lightbulb fs-2"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Innovation</h4>
+                            <p class="text-muted">We constantly explore new technologies and approaches to deliver cutting-edge solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon bg-gradient-success text-white rounded-circle mb-3 mx-auto">
+                                <i class="bi bi-people fs-2"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Collaboration</h4>
+                            <p class="text-muted">We work closely with our clients to understand their needs and deliver tailored solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-card card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon bg-gradient-primary text-white rounded-circle mb-3 mx-auto">
+                                <i class="bi bi-award fs-2"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Excellence</h4>
+                            <p class="text-muted">We're committed to delivering the highest quality solutions that exceed expectations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-5 fw-bold mb-3" data-aos="fade-up">Meet Our Team</h2>
+                    <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">
+                        The talented people behind TechFlow's success
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-card card border-0 shadow-sm h-100">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                                class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center p-4">
+                            <h4 class="fw-bold mb-1">John Smith</h4>
+                            <p class="text-primary mb-3">CEO & Founder</p>
+                            <p class="text-muted mb-4">With over 15 years of experience in technology leadership.</p>
+                            <div class="social-links d-flex justify-content-center gap-3">
+                                <a href="#" class="text-primary"><i class="bi bi-linkedin"></i></a>
+                                <a href="#" class="text-primary"><i class="bi bi-twitter"></i></a>
+                                <a href="#" class="text-primary"><i class="bi bi-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-card card border-0 shadow-sm h-100">
+                        <img src="https://pulitzercenter.org/sites/default/files/2023-06/Sarah%20Johnson.JPG" 
+                                class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center p-4">
+                            <h4 class="fw-bold mb-1">Sarah Johnson</h4>
+                            <p class="text-primary mb-3">CTO</p>
+                            <p class="text-muted mb-4">Expert in cloud architecture and software development.</p>
+                            <div class="social-links d-flex justify-content-center gap-3">
+                                <a href="#" class="text-primary"><i class="bi bi-linkedin"></i></a>
+                                <a href="#" class="text-primary"><i class="bi bi-twitter"></i></a>
+                                <a href="#" class="text-primary"><i class="bi bi-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="team-card card border-0 shadow-sm h-100">
+                        <img src="data:image/jpeg;base64,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" 
+                                class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center p-4">
+                            <h4 class="fw-bold mb-1">Mike Davis</h4>
+                            <p class="text-primary mb-3">Lead Developer</p>
+                            <p class="text-muted mb-4">Specializes in full-stack development and system architecture.</p>
+                            <div class="social-links d-flex justify-content-center gap-3">
+                                <a href="#" class="text-primary"><i class="bi bi-linkedin"></i></a>
+                                <a href="#" class="text-primary"><i class="bi bi-twitter"></i></a>
+                                <a href="#" class="text-primary"><i class="bi bi-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center text-white">
+                    <h2 class="display-5 fw-bold mb-3" data-aos="zoom-in">Ready to Work With Us?</h2>
+                    <p class="lead mb-4" data-aos="zoom-in" data-aos-delay="100">
+                        Let's discuss how we can help transform your business with technology.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center" data-aos="zoom-in" data-aos-delay="200">
+                        <a href="contact.html" class="btn btn-light btn-lg px-5">
+                            <i class="bi bi-telephone me-2"></i>Contact Us
+                        </a>
+                        <a href="index.html#services" class="btn btn-outline-light btn-lg px-5">
+                            <i class="bi bi-grid me-2"></i>Our Services
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white fw-bold mb-3">
+                        <i class="bi bi-lightning-charge-fill me-2"></i>TechFlow
+                    </h5>
+                    <p class="text-light opacity-75 mb-4">
+                        Transforming businesses through innovative technology solutions and exceptional service delivery.
+                    </p>
+                    <div class="social-links d-flex gap-3">
+                        <a href="#" class="social-link text-light">
+                            <i class="bi bi-facebook fs-5"></i>
+                        </a>
+                        <a href="#" class="social-link text-light">
+                            <i class="bi bi-twitter fs-5"></i>
+                        </a>
+                        <a href="#" class="social-link text-light">
+                            <i class="bi bi-linkedin fs-5"></i>
+                        </a>
+                        <a href="#" class="social-link text-light">
+                            <i class="bi bi-instagram fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="text-white fw-semibold mb-3">Services</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html#services" class="text-light opacity-75 text-decoration-none">Web Development</a></li>
+                        <li class="mb-2"><a href="index.html#services" class="text-light opacity-75 text-decoration-none">Mobile Apps</a></li>
+                        <li class="mb-2"><a href="index.html#services" class="text-light opacity-75 text-decoration-none">Cloud Solutions</a></li>
+                        <li class="mb-2"><a href="index.html#services" class="text-light opacity-75 text-decoration-none">Consulting</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="text-white fw-semibold mb-3">Company</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="about.html" class="text-light opacity-75 text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Careers</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Blog</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-light opacity-75 text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <h6 class="text-white fw-semibold mb-3">Newsletter</h6>
+                    <p class="text-light opacity-75 mb-3">Subscribe for updates and exclusive offers.</p>
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                            <button class="btn btn-primary" type="submit">
+                                <i class="bi bi-send"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <hr class="my-4 opacity-25">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0 text-light opacity-75">© 2024 TechFlow. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-light opacity-75 text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-light opacity-75 text-decoration-none">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
